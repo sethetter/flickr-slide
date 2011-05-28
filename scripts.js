@@ -1,4 +1,5 @@
 $(function() {
+  
   var apiKey = '6668183b6463566fd71489c899a80d33';
   var photoSet = '346406'; // http://www.flickr.com/photos/michael_hughes/sets/346406/
   
@@ -11,4 +12,5 @@ $(function() {
     });
     $('#slideshow').cycle({ fx: 'fade' });
   });
+  
 });
